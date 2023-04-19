@@ -5,9 +5,9 @@
 ##SBATCH --gres=gpu:8
 ##SBATCH -c 80
 
-export PYTHONPATH=./
-eval "$(conda shell.bash hook)"
-conda activate pt140  # pytorch 1.4.0 env
+# export PYTHONPATH=./
+# eval "$(conda shell.bash hook)"
+# conda activate base  # pytorch 1.4.0 env
 PYTHON=python
 
 dataset=$1
